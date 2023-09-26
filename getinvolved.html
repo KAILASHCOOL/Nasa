@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="icon" href="/images/OIP.jpg" type="image">
     <style>
         * {
@@ -129,6 +132,7 @@
       .Secondarynav{
          margin-left: 200px;
          width: 78%;
+         background-color: #000000;
          box-sizing: border-box;
       }
      .Secondarynav ul {
@@ -158,6 +162,52 @@
             background-color: #5d7fb9;
             width: 130px;
         }
+        .containerr{
+            box-sizing: border-box;
+            height: 500px;
+            width: 78%;
+            margin-left: 200px;
+            background-color: aqua;
+        }
+        .item{
+        height: 400px;
+        width: 100%;
+          }
+          #se img{
+            height: 400px;
+            width: 800px;
+          }
+          #myCarousel{
+            width: 50%;
+            margin-left: 200px;
+
+          }
+          #te img{
+            height: 400px;
+          }
+          #me img{
+            height: 400px;
+            width: 800px;
+          }
+          .parent1{
+        
+          }
+          .parent2{
+            position: relative;
+            background-color: #000;
+          }
+          .parent3{
+            height: 400px;
+            position: absolute;
+            left: 959px;
+            padding: 20px;
+            box-sizing: border-box;
+            color: white;
+            top: 398px;
+            width: 426px;
+            background-color: #5d7fb9;
+          }
+    
     </style>
 </head>
 
@@ -246,6 +296,53 @@
             </ul>
         </div>
     </div>
-</body>
+    <div class="parent2">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" id="te">
+            <img src="images/solve_openinnovation_wide.png" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+      
+          <div class="item" id="se">
+            <img src="images/break_the_ice_challenge_large_0.jpg" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+      
+          <div class="item" id="me">
+            <img src="images/open_innovation_nasa.png" alt="">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
+    </div>
+    <div class="parent3">
+<h3> <b> Public Provides NASA with New Innovations through Prize Competitions, Crowdsourcing, Citizen Science Opportunities</b></h3>  
+ <br>
+ Open Innovation: Boosting NASA Higher, Faster, and Farther highlights some of those breakthroughs, which accelerate space technology development and discovery while giving the public a gateway to work with NASA. 
+    </div>
+
+</body>
 </html>
