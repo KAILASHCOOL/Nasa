@@ -317,3 +317,6 @@ height: 50px;
     text-decoration: none;
     color: white;
  }
+ .bnav a:hover{
+   text-decoration: underline;
+ }
